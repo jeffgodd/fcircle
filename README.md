@@ -30,9 +30,11 @@ Enter an integer followed by the string "integer" and you receive a decimals mul
 ## Examples
 
 Passing no arguments until prompted:
-$ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core
-Please enter the number of columns. Add "integer" for decimals: 
-10
+
+    $ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core
+      Please enter the number of columns. Add "integer" for decimals: 
+     10
+
            2     3     5     7    11    13    17    19    23    29 
      2     4     6    10    14    22    26    34    38    46    58 
      3     6     9    15    21    33    39    51    57    69    87 
@@ -48,7 +50,8 @@ Please enter the number of columns. Add "integer" for decimals:
 
 Passing arguments with the command:
 
-$ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core 15
+        $ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core 15
+
              2      3      5      7     11     13     17     19     23     29     31     37     41     43     47 
       2      4      6     10     14     22     26     34     38     46     58     62     74     82     86     94 
       3      6      9     15     21     33     39     51     57     69     87     93    111    123    129    141 
@@ -66,7 +69,8 @@ $ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core 15
      43     86    129    215    301    473    559    731    817    989   1247   1333   1591   1763   1849   2021 
      47     94    141    235    329    517    611    799    893   1081   1363   1457   1739   1927   2021   2209 
 
-$ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core 10 integer
+     $ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core 10 integer
+
            2     3     4     5     6     7     8     9    10 
      2     4     6     8    10    12    14    16    18    20 
      3     6     9    12    15    18    21    24    27    30 
