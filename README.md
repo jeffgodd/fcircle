@@ -83,17 +83,10 @@ Passing arguments with the command:
     10    20    30    40    50    60    70    80    90   100 
 ...
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Jeff
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
