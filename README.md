@@ -1,20 +1,31 @@
 # fcircle
 
-FIXME: description
+Coding Challenge
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Clone from gitub 
 
 ## Usage
 
-FIXME: explanation
+This app was build with the help of Leiningen.  https://leiningen.org/
+Tests require Leiningen, running requires java.
 
-    $ java -jar fcircle-0.1.0-standalone.jar [args]
+This app takes an integer as input and prints a multiplication table of prime numbers with that number of columns.  It is reasonably performant to 100,000 or so,
+but really needs something lazy rather than brute force for more primes than that.
 
+    $ java -cp fcircle-0.1.0-standalone.jar clojure.main -m fcircle.core [args]
+
+To run TESTs:
+
+    $ lein test
+    
 ## Options
 
-FIXME: listing of options this app accepts.
+Enter no arguments and you will receive a prompt.
+Enter an integer and you receive a primes multiplication table. 
+Enter an integer followed by the string "integer" and you receive a decimals multiplication table.
+
 
 ## Examples
 
